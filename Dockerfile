@@ -1,6 +1,6 @@
 # 공식 Node.js 이미지를 사용합니다.
 # https://hub.docker.com/_/node
-FROM node:14
+FROM node:20
 
 # 앱 디렉토리를 생성하고 변경합니다.
 WORKDIR /usr/src/app
